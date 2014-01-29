@@ -54,6 +54,25 @@
 </stylenode>
 </map_styles>
 </hook>
+<node TEXT="SMP" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1793468360" CREATED="1383275321479" MODIFIED="1391035473734" HGAP="1179" VSHIFT="-607" BACKGROUND_COLOR="#f0f0f0">
+<hook NAME="FreeNode"/>
+<edge COLOR="#ff3333"/>
+</node>
+<node TEXT="Analytical Position" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_983410069" CREATED="1391035442109" MODIFIED="1391035484123" HGAP="1147" VSHIFT="-550">
+<hook NAME="FreeNode"/>
+</node>
+<node TEXT="Input Data Representation" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1520814251" CREATED="1391035488872" MODIFIED="1391035502636" HGAP="1129" VSHIFT="-497">
+<hook NAME="FreeNode"/>
+</node>
+<node TEXT="Processing Data Representation" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_321257109" CREATED="1391035506879" MODIFIED="1391035569162" HGAP="1116" VSHIFT="-441">
+<hook NAME="FreeNode"/>
+</node>
+<node TEXT="Solution Data Representation" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_202213684" CREATED="1391035518491" MODIFIED="1391035571329" HGAP="1128" VSHIFT="-389">
+<hook NAME="FreeNode"/>
+</node>
+<node TEXT="Communication Synchronicity" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1147557978" CREATED="1391035537661" MODIFIED="1391035573685" HGAP="1125" VSHIFT="-333">
+<hook NAME="FreeNode"/>
+</node>
 <node TEXT="Moran&apos;s I" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="left" ID="ID_1871105268" CREATED="1383254665082" MODIFIED="1383841428352" HGAP="-578" VSHIFT="-363">
 <hook NAME="FreeNode"/>
 <node TEXT="Spatial Autocorrelation" ID="ID_607804195" CREATED="1383255505737" MODIFIED="1383255692756"/>
@@ -116,10 +135,6 @@
 <node TEXT="Permutations (Conditional)" ID="ID_83767939" CREATED="1383255574525" MODIFIED="1383274880138"/>
 <node TEXT="Abstract" ID="ID_1228137421" CREATED="1383255585469" MODIFIED="1383255707698"/>
 </node>
-<node TEXT="SMP" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1793468360" CREATED="1383275321479" MODIFIED="1383275485526" HGAP="859" VSHIFT="-497" BACKGROUND_COLOR="#f0f0f0">
-<hook NAME="FreeNode"/>
-<edge COLOR="#ff3333"/>
-</node>
 <node TEXT="Lisa" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1993756620" CREATED="1383254928046" MODIFIED="1383838385594" HGAP="740" VSHIFT="-310">
 <hook NAME="FreeNode"/>
 <node TEXT="Spatial Autocorrelation" ID="ID_1767321066" CREATED="1383837926572" MODIFIED="1383837989450" HGAP="30" VSHIFT="-10"/>
@@ -129,6 +144,9 @@
 <node TEXT="Single Phase Synchronous" ID="ID_1651488931" CREATED="1383838014063" MODIFIED="1383838019154"/>
 <node TEXT="Permutations (Conditional)" ID="ID_1872871305" CREATED="1383838280432" MODIFIED="1383838289932"/>
 <node TEXT="Abstract" ID="ID_765937679" CREATED="1383838291282" MODIFIED="1383838300284"/>
+</node>
+<node TEXT="Processing Bottleneck" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1060897687" CREATED="1391035548529" MODIFIED="1391035576593" HGAP="1132" VSHIFT="-270">
+<hook NAME="FreeNode"/>
 </node>
 <node TEXT="Geary&apos;s C" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_994755485" CREATED="1383254936335" MODIFIED="1383838387817" HGAP="728" VSHIFT="-261">
 <hook NAME="FreeNode"/>
@@ -160,7 +178,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Single Phase Asynchronous" STYLE_REF="Gray_on_Black" ID="ID_1414534293" CREATED="1382383457809" MODIFIED="1383254813153" COLOR="#000000" BACKGROUND_COLOR="#ffffff" HGAP="-300" VSHIFT="40"/>
 <node TEXT="Single Phase Synchronous" ID="ID_692662332" CREATED="1382648805143" MODIFIED="1383254808441" HGAP="-300" VSHIFT="-10"/>
@@ -227,6 +244,22 @@
 <node TEXT="Getis &amp; Ord C" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1075056792" CREATED="1383254931134" MODIFIED="1383838390474" HGAP="707" VSHIFT="-214">
 <hook NAME="FreeNode"/>
 </node>
+<node TEXT="Decomposition" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1396508623" CREATED="1391035558523" MODIFIED="1391036049073" HGAP="1150" VSHIFT="-206">
+<hook NAME="FreeNode"/>
+<node TEXT="Spatial" ID="ID_320169861" CREATED="1391035610723" MODIFIED="1391035636124" HGAP="10" VSHIFT="130">
+<node TEXT="Regular?" ID="ID_904926996" CREATED="1391035650063" MODIFIED="1391036079160" VSHIFT="10">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_904926996" STARTINCLINATION="230;33;" ENDINCLINATION="230;33;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Clustered?" ID="ID_565402324" CREATED="1391035669640" MODIFIED="1391036073165" VSHIFT="20">
+<node TEXT="Density Varies &lt; 1 Order of Magnitude" ID="ID_545208789" CREATED="1391035677593" MODIFIED="1391035697916">
+<node TEXT="Simple Decomposition Warranted (Regular Grid)" ID="ID_376418185" CREATED="1391035754313" MODIFIED="1391036068874" HGAP="10" VSHIFT="-20"/>
+</node>
+<node TEXT="Density Varies &gt; 1 Order of Magnitude" ID="ID_925200549" CREATED="1391035698848" MODIFIED="1391036083371" VSHIFT="20">
+<node TEXT="Complex Decomposition Warranted (Quad Tree)" ID="ID_880018823" CREATED="1391035734190" MODIFIED="1391035748082"/>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="Contiguity" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1379648706" CREATED="1383838399012" MODIFIED="1383838523823" HGAP="710" VSHIFT="-135">
 <hook NAME="FreeNode"/>
 <node TEXT="Spatial Weights" ID="ID_258476801" CREATED="1383838410291" MODIFIED="1383838416505"/>
@@ -275,7 +308,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Geometric Comparison" ID="ID_734169942" CREATED="1383838695112" MODIFIED="1383838798936"/>
@@ -295,7 +327,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Spatial Weights" ID="ID_1835675307" CREATED="1383838840928" MODIFIED="1383838849215"/>
 <node TEXT="Unstructured (Point Objects) | Structured (Vectors of X, Y Coordinates) | Array of Observation IDs and Attributes" ID="ID_1775426277" CREATED="1383838849740" MODIFIED="1383838955829"/>
@@ -340,7 +371,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Structured (Lists or Arrays)" ID="ID_324795513" CREATED="1383840770865" MODIFIED="1383840785730"/>
@@ -367,7 +397,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Heuristic Search" ID="ID_1152375984" CREATED="1383841214526" MODIFIED="1383841257353"/>
